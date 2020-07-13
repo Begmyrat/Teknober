@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNews">
+
+
+    <TextView
+        android:id="@+id/textview_title_4add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"/>
+
+    <EditText
+        android:id="@+id/edittext_title_4add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_title_4add"/>
+
+    <TextView
+        android:id="@+id/textview_content_4add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext_title_4add"
+        android:text="Content"/>
+
+    <EditText
+        android:id="@+id/edittext_content_4add"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:outlineAmbientShadowColor="@color/colorAccent"
+        android:gravity="top"
+        android:layout_below="@+id/textview_content_4add"/>
+
+    <TextView
+        android:id="@+id/textview_date_4add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext_content_4add"
+        android:text="Date"/>
+
+    <EditText
+        android:id="@+id/edittext_date_4add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_date_4add"/>
+
+    <TextView
+        android:id="@+id/textview_imageURL_4add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext_date_4add"
+        android:text="Image URL"/>
+
+    <EditText
+        android:id="@+id/edittext_imageURL_4add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_imageURL_4add"/>
+
+    <Button
+        android:id="@+id/button_publish_4add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext_imageURL_4add"
+        android:text="PUBLISH"/>
+
+
+
+</RelativeLayout>
